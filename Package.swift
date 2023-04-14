@@ -6,6 +6,7 @@ import PackageDescription
 let package = Package(
     name: "SpeedcheckerSDK",
     platforms: [
+        .macOS(.v12),
         .iOS(.v11)
     ],
     products: [
